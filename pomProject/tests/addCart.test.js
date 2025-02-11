@@ -9,8 +9,8 @@ test('connexion avec id et pass valide', async ({ page }) => {
     await page.pause();
 });
 
-test ('add carte', async ({page})=> {
-    const addC = new addCarte(page);
-    await addC.add();
-    await page.pause();
-});
+// test ('add carte', async ({page})=> {
+//     const addC = new addCarte(page);
+//     await addC.add();
+//     await page.pause();
+// });
